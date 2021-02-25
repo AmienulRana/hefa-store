@@ -1,0 +1,344 @@
+
+.navbar{
+    background-color:#171717;
+    border-bottom:1px solid rgb(155, 155, 155);
+}
+.nav-item{
+    font-family: "Montserrat-ExtraLight";
+    margin-right: 20px;
+    font-weight: 200;
+}
+.nav-item.active a{
+    color:#FF7700 !important;
+    font-family: "Montserrat-Semibold";
+    font-weight: 600;
+}
+.nav-link span{
+    color: #FF7700 !important ;
+    font-size: 13px;
+    font-family: "Montserrat-Semibold";
+    
+}
+
+/* carousel */
+ .carousel{
+     height: 450px;
+     background-color: #171717;
+     color: white;
+ }
+ .carousel h1{
+     font-family: "Lora-Bold";
+ }
+ .carousel p{
+    font-family: "Montserrat-Regural";
+    font-weight: 200;
+ }
+
+ /* spesial eid */
+ .features h3{
+     font-family:"Lora-Bold";
+     color: #191670;
+ }
+.features .italic, .desainer p{
+     font-style: italic;
+     margin-top:-3px;
+     font-family: "Montserrat-ExtraLight";
+ }
+
+ .figure h5{
+     font-family: "Montserrat-Medium";
+     color: #171717;
+ }
+ .figure-img{
+     position: relative;
+ }
+ .figure-img a{
+     position: absolute;
+     top:0;
+     bottom: 8px;
+     left: 0;
+     right: 0;
+     background-color: rgba(0, 0, 0, .5);
+     opacity: 0;
+     transition: opacity 0.2s;
+ }
+  .figure-img:hover a{
+      opacity: 1;
+      text-decoration: none;
+  }
+
+  /* designer */
+  .desainer .figure-img{
+      width: 150px;
+      height: 150px;
+  }
+  .desainer.figure-caption{
+      font-family: "Montserrat-Medium";
+      font-style: none;
+  }
+  .desainer h3, .similiar-produk h3{
+    font-family:"Lora-Bold";
+    color: #191670;
+
+  }
+  .lihat a{
+      text-decoration:underline;
+      color: blue;
+  }
+
+
+
+  /* footer */
+
+  footer .ig, .fb, .twitter{
+      height: 30px;
+      width: 30px;
+      margin-right: 3px;
+  }
+
+  /* breadcum */
+    .breadcrumb{
+    margin-top: 100px;
+    }
+    
+    .keranjang-breadcrumb{
+        margin-top: 50px;
+    }
+
+    /* single-product */
+    .single-product .figure-caption img{
+     width: 75px;
+     height: 75px;
+    }
+    .product-thumbnail-container{
+        background-color: white;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, .5);
+        width: 360px;
+        padding: 8px;
+        margin:auto;
+        transform:translateY(-50px);
+    }
+    .product-thumbnail-container a:hover{
+        text-decoration: none;
+    }
+
+    /* single-product */
+   .single-product h3{
+       font-family: "Montserrat-Regural";
+   }
+   .single-product .text-muted{
+    transform:translateY(-10px) translateX(3px);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   }
+   .btn-produk{
+       margin: 50px 0;
+       border-bottom: 1px solid #d3d3d3;
+       padding-bottom: 20px;
+   }
+   .btn-produk .btn{
+       display: block;
+       margin: 10px 0;
+   }
+  .single-product h4{
+       font-family:"Montserrat-Medium" ;
+       margin-top: 20px;
+   }
+   .single-product .followers{
+       color: #B4B4B4;
+   }
+
+   /* prodcut description */
+   .product-description{
+    background-color: #EDE8F1;
+    height: 300px;
+   }
+   .product-description .tab-content{
+       background-color: white;
+       border-top: 0;
+       border:1px solid rgb(207, 207, 207);
+       box-shadow: 0 4px 15px rgba(0, 0, 0, .08);
+   }
+   .product-description .tab-content p{
+       font-size: 16px;
+       font-weight: 200;
+       color: #707070;
+       font-family:  "Montserrat-Regural";
+       line-height: 26px;
+   }
+   .product-description .produk-review img{
+       height: 60px;
+       width: 60px;
+   }
+   .product-description .produk-review h5{
+       font-size: 20px;
+   }
+   .product-description .produk-review p{
+       font-family: 'Segoe UI';
+       transform: translateY(-10px);
+       font-size:15px;
+   }
+   .produk-review{
+       height: 250px;
+       overflow: auto;
+   }
+   /* similiar product */
+   .similiar-produk{
+       margin-top:180px;
+       margin-bottom: 100px;
+   }
+   .similiar-produk .orang{
+       transform: translateY(-7px);
+       font-style: italic;
+       color: #707070; 
+   }
+
+   .similiar-produk .similiar-img{
+       height:200px;
+       width: 280px;
+   }
+    h4.produk{
+       font-size:18px;
+       color:black;
+       font-family: "Montserrat-Medium" ;
+   }
+   p.match{
+       font-size: 13px;
+        transform: translateY(-11px);
+   }
+
+   p.harga{
+       font-size: 13px;
+       margin-left: -100px !important;
+   }
+
+
+   .keranjang-header h3{
+    font-size:40px;
+    font-family:"Lora-Bold";
+    color: #191670;
+   }
+   .keranjang-header p{
+       font-family:"Montserrat-Regural";
+   }
+
+
+   /* chekout */
+   section .img-chekout{
+       width: 70px;
+       height: 80px;
+   }
+
+   .chekout h4{
+       font-family: "Montserrat-Regural";
+   }
+
+   .chekout h5{
+       font-family:  "Montserrat-Medium";
+   }
+
+   .chekout  p,  .category p{
+    font-family:  "Montserrat-Medium";
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+    margin-top: 6px;
+   }
+
+   .pembayaran{
+       background-color: #ebebeb;
+       border: 1px solid #EAEAEA;
+   }
+   .pembayaran h5{
+       font-family:"Lora-Bold";
+       font-size:30px;
+   }
+
+    .modal h3, .category h3{
+    font-family:"Lora-Bold";
+    color: #191670;
+   }
+
+   .category img{
+       height: 200px;
+       width: 220px;
+   }
+   #container13{
+       width: 400px;
+   }
+   .thumb{
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+    }
+    
+    .thumb:hover{
+        opacity: 40%;
+        cursor: pointer;
+    }
+    
+    @keyframes fadeIn{
+        to{
+            opacity: 1;
+        }
+    }
+    .fade{
+        opacity: 0;
+        animation: fadeIn 0.5s forwards;
+    }
+    .active1{
+        opacity: .6;
+    }
+    .border{
+        border: 3px solid rgb(44, 44, 224);
+        opacity: 1;
+    }
+
+
+
+
+   
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    font-family: "Montserrat-ExtraLight";
+    src: url('../Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+}
+@font-face{
+    font-family: "Montserrat-Semibold";
+    src: url('../Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+@font-face{
+    font-family: "Montserrat-Medium";
+    src: url('../Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+@font-face{
+    font-family: "Montserrat-Regural";
+    src: url('../Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: "Lora-Bold";
+    src: url('../Lora/Lora-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family: "Lora-regural";
+    src: url('../Lora/Lora-Regular.ttf') format('truetype');
+}
+
+
